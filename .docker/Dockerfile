@@ -1,4 +1,4 @@
-FROM golang:1.24.5-bullseye
+FROM golang:1.24.6-bullseye
 
 RUN apt -y update \
   && apt -y install wget
